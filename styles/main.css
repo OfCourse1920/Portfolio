@@ -784,6 +784,7 @@ body.nav-open {
 .skip-link {
   position: absolute;
   top: -40px;
+  display: none;
   left: 6px;
   background: var(--accent-primary);
   color: var(--bg-primary);
