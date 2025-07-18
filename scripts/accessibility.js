@@ -35,17 +35,17 @@ class AccessibilityController {
     });
   }
   
-  createSkipLinks() {
-    const skipLinksContainer = document.createElement('div');
-    skipLinksContainer.className = 'skip-links';
-    skipLinksContainer.innerHTML = `
-      <a href="#main" class="skip-link">Skip to main content</a>
-      <a href="#navigation" class="skip-link">Skip to navigation</a>
-      <a href="#contact" class="skip-link">Skip to contact</a>
-    `;
+  // createSkipLinks() {
+  //   const skipLinksContainer = document.createElement('div');
+  //   skipLinksContainer.className = 'skip-links';
+  //   skipLinksContainer.innerHTML = `
+  //     <a href="#main" class="skip-link">Skip to main content</a>
+  //     <a href="#navigation" class="skip-link">Skip to navigation</a>
+  //     <a href="#contact" class="skip-link">Skip to contact</a>
+  //   `;
     
-    document.body.insertBefore(skipLinksContainer, document.body.firstChild);
-  }
+  //   document.body.insertBefore(skipLinksContainer, document.body.firstChild);
+  // }
   
   createAnnouncementRegion() {
     this.announcementRegion = document.createElement('div');
