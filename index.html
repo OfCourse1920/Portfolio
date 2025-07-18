@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Durganand Ishar - Portfolio</title>
+  <meta name="description" content="Portfolio of Durganand Ishar - Computer Science Student & Developer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link href="styles/main.css" rel="stylesheet" />
+  <link href="styles/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="portfolio-body" data-theme="dark">
+  <!-- Fixed Navigation Header -->
+  <header class="portfolio-header" data-animate="slideDown">
+    <nav class="portfolio-nav" role="navigation" aria-label="Main navigation">
+      <div class="nav-container">
+        <div class="nav-brand">
+          <a href="#home" class="brand-link" data-animate="fadeIn">Durganand</a>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <ul class="nav-menu desktop-nav" data-animate="fadeIn">
+          <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+          <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+          <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+          <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+          <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+        </ul>
+
+        <!-- Mobile Navigation Toggle -->
+        <button class="mobile-nav-toggle" aria-label="Toggle mobile navigation" data-animate="fadeIn">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+
+        <!-- Mobile Navigation Menu -->
+        <div class="mobile-nav-menu">
+          <ul class="mobile-nav-list">
+            <li><a href="#home" class="mobile-nav-link" data-section="home">Home</a></li>
+            <li><a href="#about" class="mobile-nav-link" data-section="about">About</a></li>
+            <li><a href="#skills" class="mobile-nav-link" data-section="skills">Skills</a></li>
+            <li><a href="#projects" class="mobile-nav-link" data-section="projects">Projects</a></li>
+            <li><a href="#contact" class="mobile-nav-link" data-section="contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="portfolio-main">
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section" data-animate="fadeInUp">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-image-wrapper" data-animate="scaleIn">
+            <img src="picofme (2).png" alt="Durganand Ishar - Computer Science Student & Developer" class="hero-image"
+              loading="eager" />
+          </div>
+          <div class="hero-text">
+            <h1 class="hero-title" data-animate="typewriter">
+              <span class="hero-name">Durganand Ishar</span>
+            </h1>
+            <p class="hero-subtitle" data-animate="typewriter" data-delay="1000">
+              Computer Science Student & Developer
+            </p>
+            <p class="hero-description" data-animate="fadeInUp" data-delay="2000">
+              Motivated Class XII CBSE graduate with a 95.2% academic record, seeking to pursue Computer Science
+              Engineering at IIT.
+              Passionate about creating impactful digital solutions through creativity and problem-solving.
+            </p>
+            <div class="hero-cta" data-animate="fadeInUp" data-delay="2500">
+              <a href="#about" class="cta-button primary">Learn More</a>
+              <a href="#contact" class="cta-button secondary">Get In Touch</a>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-indicator" data-animate="bounce">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding" data-animate="fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-animate="slideInLeft">About Me</h2>
+          <div class="section-divider" data-animate="expandWidth"></div>
+        </div>
+
+        <div class="about-content">
+          <!-- Left Side: Image and Personal Info -->
+          <div class="about-image-section" data-animate="fadeInLeft">
+            <div class="about-image-wrapper">
+              <img src="picofme (2).png" alt="Durganand Ishar - About Photo" class="about-image" loading="lazy" />
+              <div class="about-image-overlay">
+                <div class="overlay-content">
+                  <i class="fas fa-graduation-cap"></i>
+                  <span>Computer Science Student</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-personal-info">
+              <div class="info-item" data-animate="slideInLeft" data-delay="200">
+                <div class="info-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="info-content">
+                  <h4>Location</h4>
+                  <span>Faridabad, Haryana</span>
+                </div>
+              </div>
+
+              <div class="info-item" data-animate="slideInLeft" data-delay="300">
+                <div class="info-icon">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="info-content">
+                  <h4>Education</h4>
+                  <span>Class XII Science (PCM)</span>
+                </div>
+              </div>
+
+              <div class="info-item" data-animate="slideInLeft" data-delay="400">
+                <div class="info-icon">
+                  <i class="fas fa-university"></i>
+                </div>
+                <div class="info-content">
+                  <h4>School</h4>
+                  <span>Ideal Public School</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Side: Content and Stats -->
+          <div class="about-content-section" data-animate="fadeInRight">
+            <div class="about-text">
+              <p class="about-description">
+                I'm a dedicated Computer Science student with a passion for technology and innovation.
+                With excellent academic performance and a drive to create meaningful digital solutions,
+                I'm constantly learning and growing in the field of software development.
+              </p>
+
+              <p class="about-description">
+                My journey in technology began with curiosity and has evolved into a commitment to
+                excellence. I believe in continuous learning and applying theoretical knowledge to
+                practical, real-world solutions that make a difference.
+              </p>
+            </div>
+
+            <!-- Animated Statistics -->
+            <div class="about-stats">
+              <div class="stat-item" data-animate="countUp" data-target="95.2" data-delay="200">
+                <div class="stat-circle">
+                  <svg class="stat-progress" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="45" class="stat-bg"></circle>
+                    <circle cx="50" cy="50" r="45" class="stat-fill" data-progress="95.2"></circle>
+                  </svg>
+                  <div class="stat-content">
+                    <span class="stat-number">0</span>
+                    <span class="stat-unit">%</span>
+                  </div>
+                </div>
+                <span class="stat-label">Academic Score</span>
+              </div>
+
+              <div class="stat-item" data-animate="countUp" data-target="5" data-delay="400">
+                <div class="stat-circle">
+                  <svg class="stat-progress" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="45" class="stat-bg"></circle>
+                    <circle cx="50" cy="50" r="45" class="stat-fill" data-progress="100"></circle>
+                  </svg>
+                  <div class="stat-content">
+                    <span class="stat-number">0</span>
+                    <span class="stat-unit">+</span>
+                  </div>
+                </div>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+
+              <div class="stat-item" data-animate="countUp" data-target="2025" data-delay="600">
+                <div class="stat-circle">
+                  <svg class="stat-progress" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="45" class="stat-bg"></circle>
+                    <circle cx="50" cy="50" r="45" class="stat-fill" data-progress="100"></circle>
+                  </svg>
+                  <div class="stat-content">
+                    <span class="stat-number">0</span>
+                    <span class="stat-unit"></span>
+                  </div>
+                </div>
+                <span class="stat-label">Graduation Year</span>
+              </div>
+            </div>
+
+            <!-- Skills Preview with Progress Bars -->
+            <div class="about-skills-preview">
+              <h3 class="skills-preview-title" data-animate="slideInRight" data-delay="200">Core Competencies</h3>
+
+              <div class="skill-preview-item" data-animate="slideInRight" data-delay="300">
+                <div class="skill-preview-info">
+                  <span class="skill-name">Microsoft Office Suite</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-preview-bar">
+                  <div class="skill-preview-fill" data-progress="90"></div>
+                </div>
+              </div>
+
+              <div class="skill-preview-item" data-animate="slideInRight" data-delay="400">
+                <div class="skill-preview-info">
+                  <span class="skill-name">Data Entry & Research</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-preview-bar">
+                  <div class="skill-preview-fill" data-progress="95"></div>
+                </div>
+              </div>
+
+              <div class="skill-preview-item" data-animate="slideInRight" data-delay="500">
+                <div class="skill-preview-info">
+                  <span class="skill-name">Creative Thinking</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-preview-bar">
+                  <div class="skill-preview-fill" data-progress="95"></div>
+                </div>
+              </div>
+
+              <div class="skill-preview-item" data-animate="slideInRight" data-delay="600">
+                <div class="skill-preview-info">
+                  <span class="skill-name">Problem Solving</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-preview-bar">
+                  <div class="skill-preview-fill" data-progress="85"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Key Achievements -->
+            <div class="about-achievements">
+              <h3 class="achievements-title" data-animate="slideInRight" data-delay="200">Key Achievements</h3>
+              <ul class="achievements-list">
+                <li data-animate="slideInRight" data-delay="300">
+                  <div class="achievement-icon">
+                    <i class="fas fa-trophy"></i>
+                  </div>
+                  <div class="achievement-content">
+                    <h4>Academic Excellence</h4>
+                    <span>Multiple academic excellence awards and consistent high performance</span>
+                  </div>
+                </li>
+                <li data-animate="slideInRight" data-delay="400">
+                  <div class="achievement-icon">
+                    <i class="fas fa-medal"></i>
+                  </div>
+                  <div class="achievement-content">
+                    <h4>Outstanding Scores</h4>
+                    <span>95.2% in Class XII and 94% in Class X examinations</span>
+                  </div>
+                </li>
+                <li data-animate="slideInRight" data-delay="500">
+                  <div class="achievement-icon">
+                    <i class="fas fa-users"></i>
+                  </div>
+                  <div class="achievement-content">
+                    <h4>Active Participation</h4>
+                    <span>Regular participation in quiz competitions and academic events</span>
+                  </div>
+                </li>
+                <li data-animate="slideInRight" data-delay="600">
+                  <div class="achievement-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                  </div>
+                  <div class="achievement-content">
+                    <h4>Leadership Experience</h4>
+                    <span>Organized school events and academic functions successfully</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding" data-animate="fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-animate="slideInLeft">Skills & Expertise</h2>
+          <div class="section-divider" data-animate="expandWidth"></div>
+          <p class="section-subtitle" data-animate="fadeInUp" data-delay="300">
+            A comprehensive overview of my technical abilities and professional competencies
+          </p>
+        </div>
+
+        <!-- Skills Navigation Tabs -->
+        <div class="skills-tabs" data-animate="fadeInUp" data-delay="200">
+          <button class="skill-tab active" data-tab="technical" aria-label="View technical skills">
+            <i class="fas fa-code"></i>
+            <span>Technical</span>
+          </button>
+          <button class="skill-tab" data-tab="soft" aria-label="View soft skills">
+            <i class="fas fa-users"></i>
+            <span>Soft Skills</span>
+          </button>
+          <button class="skill-tab" data-tab="tools" aria-label="View tools and software">
+            <i class="fas fa-tools"></i>
+            <span>Tools</span>
+          </button>
+          <button class="skill-tab" data-tab="languages" aria-label="View programming languages">
+            <i class="fas fa-language"></i>
+            <span>Languages</span>
+          </button>
+        </div>
+
+        <div class="skills-content">
+          <!-- Technical Skills -->
+          <div class="skills-category active" data-category="technical" data-animate="fadeInLeft">
+            <div class="category-header">
+              <h3 class="category-title">
+                <i class="fas fa-code category-icon"></i>
+                Technical Skills
+              </h3>
+              <p class="category-description">Core technical competencies and software proficiency</p>
+            </div>
+            <div class="skills-grid">
+              <div class="skill-item" data-animate="slideInUp" data-delay="100" data-skill="office">
+                <div class="skill-icon">
+                  <i class="fas fa-file-alt"></i>
+                </div>
+                <div class="skill-info">
+                  <div class="skill-header">
+                    <h4>Microsoft Office Suite</h4>
+                    <span class="skill-level">Expert</span>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="90">
+                      <span class="progress-text">90%</span>
+                    </div>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-tag">Word</span>
+                    <span class="skill-tag">Excel</span>
+                    <span class="skill-tag">PowerPoint</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-animate="slideInUp" data-delay="200" data-skill="research">
+                <div class="skill-icon">
+                  <i class="fas fa-search"></i>
+                </div>
+                <div class="skill-info">
+                  <div class="skill-header">
+                    <h4>Data Entry & Research</h4>
+                    <span class="skill-level">Expert</span>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="95">
+                      <span class="progress-text">95%</span>
+                    </div>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-tag">Data Analysis</span>
+                    <span class="skill-tag">Research</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-animate="slideInUp" data-delay="300" data-skill="design">
+                <div class="skill-icon">
+                  <i class="fas fa-paint-brush"></i>
+                </div>
+                <div class="skill-info">
+                  <div class="skill-header">
+                    <h4>Graphic Design</h4>
+                    <span class="skill-level">Advanced</span>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="85">
+                      <span class="progress-text">85%</span>
+                    </div>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-tag">UI/UX</span>
+                    <span class="skill-tag">Branding</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-animate="slideInUp" data-delay="400" data-skill="writing">
+                <div class="skill-icon">
+                  <i class="fas fa-pen-fancy"></i>
+                </div>
+                <div class="skill-info">
+                  <div class="skill-header">
+                    <h4>Content Writing</h4>
+                    <span class="skill-level">Advanced</span>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="80">
+                      <span class="progress-text">80%</span>
+                    </div>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-tag">Technical Writing</span>
+                    <span class="skill-tag">Documentation</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skills-category" data-category="soft" data-animate="fadeInRight">
+            <div class="category-header">
+              <h3 class="category-title">
+                <i class="fas fa-users category-icon"></i>
+                Soft Skills
+              </h3>
+              <p class="category-description">Interpersonal and professional competencies</p>
+            </div>
+            <div class="skills-grid">
+              <div class="skill-item" data-animate="slideInUp" data-delay="100" data-skill="communication">
+                <div class="skill-icon">
+                  <i class="fas fa-comments"></i>
+                </div>
+                <div class="skill-info">
+                  <div class="skill-header">
+                    <h4>Communication</h4>
+                    <span class="skill-level">Expert</span>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="90">
+                      <span class="progress-text">90%</span>
+                    </div>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-tag">Presentation</span>
+                    <span class="skill-tag">Writing</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-animate="slideInUp" data-delay="200" data-skill="problem-solving">
+                <div class="skill-icon">
+                  <i class="fas fa-lightbulb"></i>
+                </div>
+                <div class="skill-info">
+                  <div class="skill-header">
+                    <h4>Problem Solving</h4>
+                    <span class="skill-level">Advanced</span>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="85">
+                      <span class="progress-text">85%</span>
+                    </div>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-tag">Analysis</span>
+                    <span class="skill-tag">Innovation</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-animate="slideInUp" data-delay="300" data-skill="time-management">
+                <div class="skill-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="skill-info">
+                  <div class="skill-header">
+                    <h4>Time Management</h4>
+                    <span class="skill-level">Expert</span>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="90">
+                      <span class="progress-text">90%</span>
+                    </div>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-tag">Planning</span>
+                    <span class="skill-tag">Prioritization</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-animate="slideInUp" data-delay="400" data-skill="creativity">
+                <div class="skill-icon">
+                  <i class="fas fa-brain"></i>
+                </div>
+                <div class="skill-info">
+                  <div class="skill-header">
+                    <h4>Creative Thinking</h4>
+                    <span class="skill-level">Expert</span>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="95">
+                      <span class="progress-text">95%</span>
+                    </div>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-tag">Innovation</span>
+                    <span class="skill-tag">Design Thinking</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools & Software -->
+          <div class="skills-category" data-category="tools" data-animate="fadeInLeft">
+            <div class="category-header">
+              <h3 class="category-title">
+                <i class="fas fa-tools category-icon"></i>
+                Tools & Software
+              </h3>
+              <p class="category-description">Software tools and platforms I work with</p>
+            </div>
+            <div class="skills-grid">
+              <div class="skill-item" data-animate="slideInUp" data-delay="100" data-skill="adobe">
+                <div class="skill-icon">
+                  <i class="fab fa-adobe"></i>
+                </div>
+                <div class="skill-info">
+                  <div class="skill-header">
+                    <h4>Adobe Creative Suite</h4>
+                    <span class="skill-level">Intermediate</span>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="75">
+                      <span class="progress-text">75%</span>
+                    </div>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-tag">Photoshop</span>
+                    <span class="skill-tag">Illustrator</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-animate="slideInUp" data-delay="200" data-skill="figma">
+                <div class="skill-icon">
+                  <i class="fab fa-figma"></i>
+                </div>
+                <div class="skill-info">
+                  <div class="skill-header">
+                    <h4>Figma</h4>
+                    <span class="skill-level">Advanced</span>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="80">
+                      <span class="progress-text">80%</span>
+                    </div>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-tag">UI Design</span>
+                    <span class="skill-tag">Prototyping</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-animate="slideInUp" data-delay="300" data-skill="git">
+                <div class="skill-icon">
+                  <i class="fab fa-git-alt"></i>
+                </div>
+                <div class="skill-info">
+                  <div class="skill-header">
+                    <h4>Git & GitHub</h4>
+                    <span class="skill-level">Intermediate</span>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="70">
+                      <span class="progress-text">70%</span>
+                    </div>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-tag">Version Control</span>
+                    <span class="skill-tag">Collaboration</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-animate="slideInUp" data-delay="400" data-skill="vscode">
+                <div class="skill-icon">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div class="skill-info">
+                  <div class="skill-header">
+                    <h4>VS Code</h4>
+                    <span class="skill-level">Advanced</span>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="85">
+                      <span class="progress-text">85%</span>
+                    </div>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-tag">Extensions</span>
+                    <span class="skill-tag">Debugging</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Programming Languages -->
+          <div class="skills-category" data-category="languages" data-animate="fadeInRight">
+            <div class="category-header">
+              <h3 class="category-title">
+                <i class="fas fa-language category-icon"></i>
+                Programming Languages
+              </h3>
+              <p class="category-description">Programming languages and markup technologies</p>
+            </div>
+            <div class="skills-grid">
+              <div class="skill-item" data-animate="slideInUp" data-delay="100" data-skill="html">
+                <div class="skill-icon">
+                  <i class="fab fa-html5"></i>
+                </div>
+                <div class="skill-info">
+                  <div class="skill-header">
+                    <h4>HTML5</h4>
+                    <span class="skill-level">Advanced</span>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="85">
+                      <span class="progress-text">85%</span>
+                    </div>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-tag">Semantic HTML</span>
+                    <span class="skill-tag">Accessibility</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-animate="slideInUp" data-delay="200" data-skill="css">
+                <div class="skill-icon">
+                  <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="skill-info">
+                  <div class="skill-header">
+                    <h4>CSS3</h4>
+                    <span class="skill-level">Advanced</span>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="80">
+                      <span class="progress-text">80%</span>
+                    </div>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-tag">Flexbox</span>
+                    <span class="skill-tag">Grid</span>
+                    <span class="skill-tag">Animations</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-animate="slideInUp" data-delay="300" data-skill="javascript">
+                <div class="skill-icon">
+                  <i class="fab fa-js-square"></i>
+                </div>
+                <div class="skill-info">
+                  <div class="skill-header">
+                    <h4>JavaScript</h4>
+                    <span class="skill-level">Intermediate</span>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="75">
+                      <span class="progress-text">75%</span>
+                    </div>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-tag">ES6+</span>
+                    <span class="skill-tag">DOM</span>
+                    <span class="skill-tag">APIs</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-animate="slideInUp" data-delay="400" data-skill="python">
+                <div class="skill-icon">
+                  <i class="fab fa-python"></i>
+                </div>
+                <div class="skill-info">
+                  <div class="skill-header">
+                    <h4>Python</h4>
+                    <span class="skill-level">Beginner</span>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="60">
+                      <span class="progress-text">60%</span>
+                    </div>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-tag">Basics</span>
+                    <span class="skill-tag">Learning</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills Summary -->
+        <div class="skills-summary" data-animate="fadeInUp" data-delay="600">
+          <div class="summary-stats">
+            <div class="summary-stat" data-animate="countUp" data-target="12" data-delay="700">
+              <span class="stat-number">0</span>
+              <span class="stat-label">Core Skills</span>
+            </div>
+            <div class="summary-stat" data-animate="countUp" data-target="4" data-delay="800">
+              <span class="stat-number">0</span>
+              <span class="stat-label">Categories</span>
+            </div>
+            <div class="summary-stat" data-animate="countUp" data-target="87" data-delay="900">
+              <span class="stat-number">0</span>
+              <span class="stat-label">Avg. Proficiency</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-padding" data-animate="fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-animate="slideInLeft">Featured Projects</h2>
+          <div class="section-divider" data-animate="expandWidth"></div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card" data-animate="fadeInUp" data-delay="100" data-project="todo-app">
+            <div class="project-image">
+              <img
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMmEyYTJhIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzAwZDRmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkxvYWRpbmcuLi48L3RleHQ+PC9zdmc+"
+                data-src="https://via.placeholder.com/400x200/2a2a2a/00d4ff?text=To-Do+App"
+                alt="Multi-Functional To-Do Web App" class="project-img lazy-load" loading="lazy" />
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <button class="action-btn view-details" aria-label="View project details" data-project="todo-app">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                  <button class="action-btn view-code" aria-label="View project code" data-url="#">
+                    <i class="fas fa-code"></i>
+                  </button>
+                  <button class="action-btn view-live" aria-label="View live demo" data-url="#">
+                    <i class="fas fa-external-link-alt"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">Multi-Functional To-Do Web App</h3>
+                <div class="project-status">
+                  <span class="status-badge completed">Completed</span>
+                </div>
+              </div>
+              <p class="project-description">
+                Built a modern productivity app inspired by Microsoft To-Do with task management,
+                categories, and user-friendly interface.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-animate="fadeInUp" data-delay="200" data-project="student-app">
+            <div class="project-image">
+              <img
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMmEyYTJhIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzAwZDRmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkxvYWRpbmcuLi48L3RleHQ+PC9zdmc+"
+                data-src="https://via.placeholder.com/400x200/2a2a2a/00d4ff?text=Student+App"
+                alt="Student Productivity Web App" class="project-img lazy-load" loading="lazy" />
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <button class="action-btn view-details" aria-label="View project details" data-project="student-app">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                  <button class="action-btn view-code" aria-label="View project code" data-url="#">
+                    <i class="fas fa-code"></i>
+                  </button>
+                  <button class="action-btn view-live" aria-label="View live demo" data-url="#">
+                    <i class="fas fa-external-link-alt"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">Student Productivity Web App</h3>
+                <div class="project-status">
+                  <span class="status-badge completed">Completed</span>
+                </div>
+              </div>
+              <p class="project-description">
+                Designed to manage lectures, notes, tasks, and revision schedules
+                for enhanced student productivity and organization.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-animate="fadeInUp" data-delay="300" data-project="cartex-app">
+            <div class="project-image">
+              <img
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMmEyYTJhIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzAwZDRmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkxvYWRpbmcuLi48L3RleHQ+PC9zdmc+"
+                data-src="https://via.placeholder.com/400x200/2a2a2a/00d4ff?text=CarteX+E-Commerce"
+                alt="E-Commerce App - CarteX" class="project-img lazy-load" loading="lazy" />
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <button class="action-btn view-details" aria-label="View project details" data-project="cartex-app">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                  <button class="action-btn view-code" aria-label="View project code" data-url="#">
+                    <i class="fas fa-code"></i>
+                  </button>
+                  <button class="action-btn view-live" aria-label="View live demo" data-url="#">
+                    <i class="fas fa-external-link-alt"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">E-Commerce App - CarteX</h3>
+                <div class="project-status">
+                  <span class="status-badge completed">Completed</span>
+                </div>
+              </div>
+              <p class="project-description">
+                Grocery-based web store with Razorpay payment integration,
+                smooth animations, and modern user experience.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Razorpay</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-animate="fadeInUp" data-delay="400" data-project="expense-manager">
+            <div class="project-image">
+              <img
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMmEyYTJhIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzAwZDRmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkxvYWRpbmcuLi48L3RleHQ+PC9zdmc+"
+                data-src="https://via.placeholder.com/400x200/2a2a2a/00d4ff?text=Expense+Manager" alt="Expense Manager"
+                class="project-img lazy-load" loading="lazy" />
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <button class="action-btn view-details" aria-label="View project details"
+                    data-project="expense-manager">
+                    <i class="fas fa-eye"></i>
+                  </button>
+                  <button class="action-btn view-code" aria-label="View project code" data-url="#">
+                    <i class="fas fa-code"></i>
+                  </button>
+                  <button class="action-btn view-live" aria-label="View live demo" data-url="#">
+                    <i class="fas fa-external-link-alt"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">Expense Manager</h3>
+                <div class="project-status">
+                  <span class="status-badge completed">Completed</span>
+                </div>
+              </div>
+              <p class="project-description">
+                Simple dashboard-style application for tracking personal expenses
+                with intuitive interface and data visualization.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="project-modal" id="projectModal" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+      <div class="modal-backdrop" data-close-modal></div>
+      <div class="modal-container">
+        <div class="modal-header">
+          <h2 class="modal-title" id="modalTitle">Project Details</h2>
+          <button class="modal-close" aria-label="Close modal" data-close-modal>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <div class="modal-content">
+          <div class="modal-image">
+            <img src="" alt="" class="modal-project-image" />
+            <div class="modal-status">
+              <span class="status-badge"></span>
+            </div>
+          </div>
+
+          <div class="modal-details">
+            <div class="modal-description">
+              <h3>Project Overview</h3>
+              <p class="modal-project-description"></p>
+            </div>
+
+            <div class="modal-features">
+              <h3>Key Features</h3>
+              <ul class="features-list"></ul>
+            </div>
+
+            <div class="modal-tech">
+              <h3>Technologies Used</h3>
+              <div class="modal-tech-tags"></div>
+            </div>
+
+            <div class="modal-links">
+              <h3>Project Links</h3>
+              <div class="modal-actions">
+                <a href="#" class="modal-btn primary" data-link="live" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-external-link-alt"></i>
+                  View Live Demo
+                </a>
+                <a href="#" class="modal-btn secondary" data-link="code" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-code"></i>
+                  View Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding" data-animate="fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-animate="slideInLeft">Get In Touch</h2>
+          <div class="section-divider" data-animate="expandWidth"></div>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info" data-animate="fadeInLeft">
+            <h3 class="contact-title">Let's Connect</h3>
+            <p class="contact-description">
+              I'm always open to discussing new opportunities, collaborations,
+              or just having a conversation about technology and innovation.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Email</h4>
+                  <a href="mailto:isardurganand@gmail.com">isardurganand@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Phone</h4>
+                  <a href="tel:+919354439969">+91 93544 39969</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>LinkedIn</h4>
+                  <a href="https://www.linkedin.com/in/durganand-ishar-b9a205274/" target="_blank"
+                    rel="noopener noreferrer">
+                    Connect with me
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="mailto:isardurganand@gmail.com" class="social-link" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a href="tel:+919354439969" class="social-link" aria-label="Phone">
+                <i class="fas fa-phone"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/durganand-ishar-b9a205274/" class="social-link" target="_blank"
+                rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper" data-animate="fadeInRight">
+            <form class="contact-form" data-form="contact">
+              <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" name="name" class="form-input" required data-validate="name" />
+                <span class="form-error" data-error="name"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-input" required data-validate="email" />
+                <span class="form-error" data-error="email"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-input" required data-validate="subject" />
+                <span class="form-error" data-error="subject"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-textarea" rows="5" required
+                  data-validate="message"></textarea>
+                <span class="form-error" data-error="message"></span>
+              </div>
+
+              <button type="submit" class="form-submit" data-loading="false">
+                <span class="submit-text">Send Message</span>
+                <span class="submit-loading">
+                  <i class="fas fa-spinner fa-spin"></i>
+                  Sending...
+                </span>
+              </button>
+
+              <div class="form-success" data-success="contact">
+                <i class="fas fa-check-circle"></i>
+                <span>Message sent successfully! I'll get back to you soon.</span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="portfolio-footer" data-animate="fadeInUp">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-text">
+          <p>&copy; 2025 Durganand Ishar. All rights reserved.</p>
+          <p>Built with passion and dedication to excellence.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#home" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#skills" class="footer-link">Skills</a>
+          <a href="#projects" class="footer-link">Projects</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+
+        <button class="back-to-top" aria-label="Back to top" data-scroll="top">
+          <i class="fas fa-chevron-up"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SVG Definitions for Animations -->
+  <svg width="0" height="0" style="position: absolute;">
+    <defs>
+      <linearGradient id="statGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <!-- JavaScript for interactivity -->
+  <script src="scripts/performance.js"></script>
+  <script src="scripts/accessibility.js"></script>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/animations.js"></script>
+  <script src="scripts/skills.js"></script>
+  <script src="scripts/contact.js"></script>
+  <script src="scripts/projects.js"></script>
+  <script src="scripts/utils.js"></script>
+  <script src="scripts/testing.js"></script>
+</body>
+
+</html>
